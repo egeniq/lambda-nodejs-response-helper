@@ -1,0 +1,22 @@
+{
+  "name": "lambda-nodejs-response-helper",
+  "version": "1.0.0",
+  "description": "Helper functions to create response objects for AWS Lambda",
+  "main": "src/helpers.js",
+  "scripts": {
+    "test": "eslint src/ && jest --config=jest.config.js --coverage"
+  },
+  "keywords": [
+    "lambda",
+    "serverless",
+    "helper",
+    "json"
+  ],
+  "author": "Richard Tuin",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-jest": "^22.5.1",
+    "jest": "^24.8.0"
+  }
+}

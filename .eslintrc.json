@@ -1,0 +1,28 @@
+{
+  "extends": ["eslint:recommended", "plugin:jest/style"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 8
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": false
+  },
+  "rules": {
+    "no-console": [
+      "error",
+      {"allow": ["error", "warn", "info", "debug"]}
+    ],
+    "indent": ["warn", 4]
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js"],
+      "env": {
+        "jest": true
+      }
+    }
+  ],
+  "plugins": ["jest"]
+}

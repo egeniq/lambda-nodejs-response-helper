@@ -1,0 +1,10 @@
+# This buildspec is used to run the CI build: https://aws.amazon.com/codebuild/
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run test
