@@ -4,6 +4,12 @@ Helper functions to create response objects for AWS Lambda
 
 ![](https://codebuild.eu-central-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiMy9BVFlIWDZYV1NqUzNNQnY0aTdWdExYTVpqaGNpcS80Tm9XS2QvRXFieWxnYVFUMzFMSElBSXlQNDdWcW1JWXQxUkp5QjFGUmZUQkJqK29ENmMvNFNVPSIsIml2UGFyYW1ldGVyU3BlYyI6IkJQb1lYWUJGVlBISTM5aEkiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
 
+## Installation
+
+```bash
+npm install --save github:egeniq/lambda-nodejs-response-helper
+```
+
 ## Usage
 
 ```javascript
