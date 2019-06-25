@@ -7,7 +7,7 @@ Helper functions to create response objects for AWS Lambda
 ## Installation
 
 ```bash
-npm install --save github:egeniq/lambda-nodejs-response-helper
+npm install --save lambda-nodejs-response-helper
 ```
 
 ## Usage
